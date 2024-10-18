@@ -15,7 +15,10 @@ const Home = () => {
   return (
     <div className='container mx-6'>
       {data.map((item) => (
-        <p>{item.id}</p>
+        <>
+          <p>{item.id}</p>
+          <br />
+        </>
       ))}
     </div>
   );
